@@ -20,7 +20,7 @@ function SignIn() {
 
               {/* Page header */}
               <div className="w-[38%] mx-auto text-left pb-12 md:pb-20">
-                <h1 className="h2">로그인 한 번으로 <br /> 텃밭마켓의 서비스를 사용해보세요</h1>
+                <h1 className="h2">로그인 한 번으로 <br /> 이웃집 소작농의 서비스를 사용해보세요</h1>
               </div>
 
               {/* Form */}
