@@ -3,10 +3,10 @@ import React from 'react';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
-import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
-// import Banner from '../partials/Banner';
+import FeaturesZigzag from '../partials/FeaturesZigzag';
 import Footer from '../partials/Footer';
+import ShortsSlider from '../partials/ShortsSlider';
 
 function Home() {
   return (
@@ -18,12 +18,13 @@ function Home() {
       <main className="grow">
         {/*  Page sections */}
         <HeroHome />
-        <Newsletter />
-        <FeaturesBlocks />
-        {/* <Testimonials /> */}
-      </main>
+        <FeaturesZigzag />
 
-      {/* <Banner /> */}
+        <ShortsSlider />
+        <Newsletter />
+
+
+      </main>
 
       {/*  Site footer */}
       <Footer />

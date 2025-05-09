@@ -20,7 +20,7 @@ function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">농부 마켓은 로컬 영세농들과 상생하기 위해 로컬 영세농의 농산품 판매를 돕는 웹사이트입니다.
+              <div className="text-gray-400">이웃집 소작농은 영세농들과 상생하기 위해 영세농의 농산품 판매를 돕는 웹사이트입니다.
               </div>
             </div>
 
@@ -67,7 +67,7 @@ function Footer() {
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">khuthon</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Project - 텃밭마켓</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Project - 이웃집 소작농</Link>
                   </li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; (주) 텃밭마켓. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; (주) 이웃집 소작농. All rights reserved.</div>
 
           </div>
 

@@ -20,7 +20,7 @@ function SignUp() {
 
               {/* Page header */}
               <div className="w-[38%] mx-auto text-left pb-12 md:pb-20">
-                <h1 className="h2">텃밭마켓와 함께 <br /> 내 농산물 판매를 시작하세요</h1>
+                <h1 className="h2">이웃집 소작농과 함께 <br /> 내 농산물 판매를 시작하세요</h1>
               </div>
 
               {/* Form */}
