@@ -88,13 +88,13 @@ function HeroHome() {
     <section>
       <div className="max-w-full mx-auto sm:px-6 relative">
         {/* Hero content */}
-        <div className="relative pt-32 pb-0 md:pt-52 md:pb-4">
+        <div className="relative pt-40 pb-10 md:pt-60 md:pb-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-0 md:pb-4">
-            <h1 className="h1 mb-4" data-aos="fade-up">
+          <div className="mt-10 max-w-5xl mx-auto text-center pb-0 md:pb-4">
+            <h1 className="h1 text-black mb-4">
               신선한 농산물 직거래 플랫폼
             </h1>
-            <p className="text-xl text-gray-300 mb-8" data-aos="fade-up" data-aos-delay="200">
+            <p className="mt-10 mb-20 text-xl text-black mb-8">
               농부와 소비자를 직접 연결하는 신선한 농산물 직거래 플랫폼<br />
               당신의 식탁에 신선함을 전달합니다
             </p>
@@ -104,7 +104,7 @@ function HeroHome() {
               <Slider {...settings}>
                 {products.map((product) => (
                   <div key={product.id} className="px-4">
-                    <div className="bg-gray-800 rounded-lg p-12 h-full transform transition-transform duration-300 hover:scale-105 border-0">
+                    <div className="bg-gray-800 rounded-lg p-12 h-full min-h-[480px] transform transition-transform duration-300 hover:scale-105 border-0">
                       <div className="w-24 h-24 mx-auto mb-8 bg-[#688A08] rounded-full flex items-center justify-center">
                         {product.icon}
                       </div>
