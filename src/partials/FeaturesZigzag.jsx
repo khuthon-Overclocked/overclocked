@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import FeatImage01 from '../images/features-03-image-01.png';
 import FeatImage02 from '../images/features-03-image-02.png';
@@ -8,8 +9,9 @@ import cabbage from '../images/cabbage.png';
 import carrot from '../images/carrot.png';
 import rice2 from '../images/rice2.png';
 
-
 function FeaturesZigzag() {
+  const navigate = useNavigate();
+
   return (
     <section>
 
@@ -73,7 +75,7 @@ function FeaturesZigzag() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-[#688A08] mb-2">당근 농장</div>
-                  <h3 className="h3 mb-3 text-black">이서준 농부의 당근 농장</h3>
+                  <h3 className="h3 mb-3 text-black">이서준 농부의 루트가든</h3>
                   <p className="text-xl text-gray-300 mb-4"> 자연의 달콤함을 그대로</p>
                   <p className="text-xl text-gray-400 mb-4">당근으로 더 건강하게, 더 맛있게! 비타민 A 가득, 눈 건강을 지켜요!</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -90,6 +92,24 @@ function FeaturesZigzag() {
                       <span>저칼로리 스낵</span>
                     </li>
                   </ul>
+                  <button
+                    onClick={() => navigate('/farm')}
+                    className="mt-4 inline-flex items-center text-[#688A08] hover:text-green-700 font-medium"
+                  >
+                    더 알아보기
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M12.293 9.293a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 01-1.414-1.414L13.586 13H4a1 1 0 110-2h9.586l-1.293-1.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>

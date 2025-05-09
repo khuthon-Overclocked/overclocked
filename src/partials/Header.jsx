@@ -121,7 +121,7 @@ function Header() {
                     <div>
                       <h3 className="font-semibold text-gray-800 mb-2">채소</h3>
                       <div className="space-y-1">
-                        <Link to="/category/vegetables/carrot" className="block text-gray-600 hover:text-gray-900">당근</Link>
+                        <Link to="/farm" className="block text-gray-600 hover:text-gray-900">당근</Link>
                         <Link to="/category/vegetables/greens" className="block text-gray-600 hover:text-gray-900">시금치/쌈채소/나물</Link>
                         <Link to="/category/vegetables/cruciferous" className="block text-gray-600 hover:text-gray-900">브로콜리/파프리카/양배추</Link>
                         <Link to="/category/vegetables/allium" className="block text-gray-600 hover:text-gray-900">양파/대파/마늘/배추</Link>

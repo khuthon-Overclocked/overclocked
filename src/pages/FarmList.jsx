@@ -581,7 +581,7 @@ const FarmList = () => {
       console.log('Displaying farms:', selectedFarms);
       return selectedFarms;
     }
-    
+
     // 초기 상태나 카테고리/서브메뉴가 선택되지 않은 경우
     return [];
   };
@@ -609,7 +609,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">채소</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('채소', '당근')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -617,7 +617,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('채소', '시금치/쌈채소/나물')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -625,7 +625,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('채소', '브로콜리/파프리카/양배추')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -633,7 +633,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('채소', '양파/대파/마늘/배추')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -641,7 +641,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('채소', '오이/호박/고추')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -654,7 +654,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">과일</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '사과')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -662,7 +662,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '배')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -670,7 +670,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '감귤')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -678,7 +678,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '포도')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -686,7 +686,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '복숭아')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -694,7 +694,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('과일', '딸기')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -707,7 +707,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">감자/고구마/옥수수</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('감자/고구마/옥수수', '감자')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -715,7 +715,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('감자/고구마/옥수수', '고구마')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -723,7 +723,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('감자/고구마/옥수수', '옥수수')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -736,7 +736,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">견과</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('견과', '호두')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -744,7 +744,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('견과', '잣')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -757,7 +757,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">쌀/잡곡</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '조')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -765,7 +765,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '수수')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -773,7 +773,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '보리')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -781,7 +781,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '현미')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -789,7 +789,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '흑미')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -797,7 +797,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '찹쌀')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -805,7 +805,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '귀리')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -813,7 +813,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('쌀/잡곡', '기장')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -826,7 +826,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">장류/양념류/기름</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '고추장')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -834,7 +834,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '된장')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -842,7 +842,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '간장')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -850,7 +850,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '고춧가루')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -858,7 +858,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '마늘')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -866,7 +866,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '참기름')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -874,7 +874,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('장류/양념류/기름', '들기름')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -887,7 +887,7 @@ const FarmList = () => {
                       <h3 className="font-semibold text-gray-900 mb-2">농수산 가공품</h3>
                       <ul className="space-y-1">
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '미숫가루')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -895,7 +895,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '누룽지')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -903,7 +903,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '잼')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -911,7 +911,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '과일청')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -919,7 +919,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '건과일')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -927,7 +927,7 @@ const FarmList = () => {
                           </button>
                         </li>
                         <li>
-                          <button 
+                          <button
                             onClick={() => handleSubmenuClick('농수산 가공품', '김치')}
                             className="text-gray-600 hover:text-gray-200"
                           >
@@ -950,31 +950,31 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '채소' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('채소', '당근')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       당근
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('채소', '시금치/쌈채소/나물')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       시금치/쌈채소/나물
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('채소', '브로콜리/파프리카/양배추')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       브로콜리/파프리카/양배추
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('채소', '양파/대파/마늘/배추')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       양파/대파/마늘/배추
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('채소', '오이/호박/고추')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -992,37 +992,37 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '과일' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '사과')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       사과
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '배')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       배
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '감귤')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       감귤
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '포도')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       포도
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '복숭아')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       복숭아
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('과일', '딸기')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1040,19 +1040,19 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '감자/고구마/옥수수' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('감자/고구마/옥수수', '감자')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       감자
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('감자/고구마/옥수수', '고구마')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       고구마
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('감자/고구마/옥수수', '옥수수')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1070,13 +1070,13 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '견과' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('견과', '호두')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       호두
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('견과', '잣')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1094,49 +1094,49 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '쌀/잡곡' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '조')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       조
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '수수')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       수수
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '보리')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       보리
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '현미')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       현미
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '흑미')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       흑미
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '찹쌀')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       찹쌀
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '귀리')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       귀리
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('쌀/잡곡', '기장')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1154,43 +1154,43 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '장류/양념류/기름' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '고추장')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       고추장
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '된장')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       된장
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '간장')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       간장
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '고춧가루')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       고춧가루
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '마늘')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       마늘
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '참기름')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       참기름
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('장류/양념류/기름', '들기름')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1208,37 +1208,37 @@ const FarmList = () => {
                 </button>
                 {showSideSubmenu && hoverCategory === '농수산 가공품' && (
                   <div className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-50 border border-green-100">
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '미숫가루')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       미숫가루
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '누룽지')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       누룽지
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '잼')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       잼
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '과일청')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       과일청
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '건과일')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
                       건과일
                     </button>
-                    <button 
+                    <button
                       onClick={() => handleSubmenuClick('농수산 가공품', '김치')}
                       className="block w-full text-left px-4 py-2 text-gray-600 hover:bg-gray-100"
                     >
@@ -1251,7 +1251,7 @@ const FarmList = () => {
           </nav>
         </div>
       </div>
-      
+
       {/* 메인 콘텐츠 */}
       <div className="w-[85%] mx-auto py-8 pt-28 relative z-0">
         {/* 현재 경로 표시 */}
