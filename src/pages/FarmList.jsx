@@ -16,7 +16,7 @@ export const farms = {
     '당근': [
       {
         id: 1,
-        name: "나라당근 농장",
+        name: "루트가든",
         location: "경기도 가평군",
         image: "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?q=80&w=1000",
         rating: 4.8,
@@ -28,7 +28,7 @@ export const farms = {
       },
       {
         id: 2,
-        name: "달콤당근 농장",
+        name: "노을밭",
         location: "경기도 양평군",
         image: "https://images.unsplash.com/photo-1576181256399-834e3b3a49bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8JUVCJThCJUI5JUVBJUI3JUJDfGVufDB8MHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.7,
@@ -40,7 +40,7 @@ export const farms = {
       },
       {
         id: 3,
-        name: "푸른당근 농장",
+        name: "새벽당근연구소",
         location: "경기도 포천시",
         image: "https://images.unsplash.com/photo-1606916032083-e505604f1a9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fCVFQiU4QiVCOSVFQSVCNyVCQ3xlbnwwfDB8MHx8fDA%3D?q=80&w=1000",
         rating: 4.9,
@@ -52,7 +52,7 @@ export const farms = {
       },
       {
         id: 28,
-        name: "행복당근 농장",
+        name: "길동이네 자연상회",
         location: "경기도 남양주시",
         image: "https://images.unsplash.com/photo-1447175008436-054170c2e979?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8JUVCJThCJUI5JUVBJUI3JUJDfGVufDB8MHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.6,
@@ -64,7 +64,7 @@ export const farms = {
       },
       {
         id: 29,
-        name: "맑은당근 농장",
+        name: "들꽃마당",
         location: "경기도 구리시",
         image: "https://images.unsplash.com/photo-1442897961655-905a8343c8eb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fCVFQiU4QiVCOSVFQSVCNyVCQ3xlbnwwfDB8MHx8fDA%3D?q=80&w=1000",
         rating: 4.8,
@@ -76,7 +76,7 @@ export const farms = {
       },
       {
         id: 30,
-        name: "푸르른당근 농장",
+        name: "캐럿동산",
         location: "경기도 하남시",
         image: "https://images.unsplash.com/photo-1668941476854-312b0fb87e1c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fCVFQiU4QiVCOSVFQSVCNyVCQ3xlbnwwfDB8MHx8fDA%3D?q=80&w=1000",
         rating: 4.7,
@@ -168,7 +168,7 @@ export const farms = {
     '사과': [
       {
         id: 10,
-        name: "나라사과 농장",
+        name: "나라농장",
         location: "경기도 가평군",
         image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
         rating: 4.9,
@@ -180,9 +180,9 @@ export const farms = {
       },
       {
         id: 11,
-        name: "달콤사과 농장",
+        name: "마루마루",
         location: "경기도 양평군",
-        image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1675266123819-026acf00aefa?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8JUVDJTgyJUFDJUVBJUIzJUJDJTIwJUVDJTgyJUFDJUVDJUE3JTg0fGVufDB8fDB8fHww?q=80&w=1000",
         rating: 4.8,
         reviews: 145,
         description: "달콤한 사과를 재배하는 농장입니다. 친환경 농법으로 재배하여 안전한 사과를 제공합니다.",
@@ -192,9 +192,9 @@ export const farms = {
       },
       {
         id: 12,
-        name: "푸른사과 농장",
+        name: "달사과 정원",
         location: "경기도 포천시",
-        image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
+        image: "https://plus.unsplash.com/premium_photo-1661322640130-f6a1e2c36653?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JUVDJTgyJUFDJUVBJUIzJUJDfGVufDB8fDB8fHww?q=80&w=1000",
         rating: 4.7,
         reviews: 123,
         description: "달콤한 사과를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 사과를 제공합니다.",
@@ -204,9 +204,9 @@ export const farms = {
       },
       {
         id: 31,
-        name: "행복사과 농장",
+        name: "레드골드팜",
         location: "경기도 남양주시",
-        image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8JUVDJTgyJUFDJUVBJUIzJUJDfGVufDB8fDB8fHww?q=80&w=1000",
         rating: 4.8,
         reviews: 134,
         description: "달콤한 사과를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 사과를 제공합니다.",
@@ -216,9 +216,9 @@ export const farms = {
       },
       {
         id: 32,
-        name: "맑은사과 농장",
+        name: "청명마을",
         location: "경기도 구리시",
-        image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
+        image: "https://plus.unsplash.com/premium_photo-1674473710805-32cdc657eb0e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fCVFQyU4MiVBQyVFQSVCMyVCQ3xlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.7,
         reviews: 98,
         description: "달콤한 사과를 재배하는 농장입니다. 친환경 농법으로 재배하여 안전한 사과를 제공합니다.",
@@ -228,9 +228,9 @@ export const farms = {
       },
       {
         id: 33,
-        name: "푸르른사과 농장",
+        name: "하늘담은 사과밭",
         location: "경기도 하남시",
-        image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1606757389723-23c4bf501fba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fCVFQyU4MiVBQyVFQSVCMyVCQ3xlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.9,
         reviews: 156,
         description: "달콤한 사과를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 사과를 제공합니다.",
@@ -282,7 +282,7 @@ export const farms = {
     '감자': [
       {
         id: 16,
-        name: "나라감자 농장",
+        name: "흙내음",
         location: "경기도 가평군",
         image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
         rating: 4.7,
@@ -294,9 +294,9 @@ export const farms = {
       },
       {
         id: 17,
-        name: "달콤감자 농장",
+        name: "은비네 초록정원",
         location: "경기도 양평군",
-        image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1541683746238-470486ba4a00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fCVFQSVCMCU5MCVFQyU5RSU5MHxlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.8,
         reviews: 145,
         description: "신선한 감자를 재배하는 농장입니다. 친환경 농법으로 재배하여 안전한 감자를 제공합니다.",
@@ -306,9 +306,9 @@ export const farms = {
       },
       {
         id: 18,
-        name: "푸른감자 농장",
+        name: "포테이토힐즈",
         location: "경기도 포천시",
-        image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1603048719539-9ecb4aa395e3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fCVFQSVCMCU5MCVFQyU5RSU5MHxlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.9,
         reviews: 167,
         description: "신선한 감자를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 감자를 제공합니다.",
@@ -318,9 +318,9 @@ export const farms = {
       },
       {
         id: 34,
-        name: "행복감자 농장",
+        name: "감자골",
         location: "경기도 남양주시",
-        image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1628236879201-783fa93fe7bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCVFQSVCMCU5MCVFQyU5RSU5MHxlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.6,
         reviews: 89,
         description: "신선한 감자를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 감자를 제공합니다.",
@@ -330,9 +330,9 @@ export const farms = {
       },
       {
         id: 35,
-        name: "맑은감자 농장",
+        name: "고향농장",
         location: "경기도 구리시",
-        image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
+        image: "https://images.unsplash.com/photo-1578594640334-b71fbed2a406?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fCVFQSVCMCU5MCVFQyU5RSU5MHxlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.8,
         reviews: 112,
         description: "신선한 감자를 재배하는 농장입니다. 친환경 농법으로 재배하여 안전한 감자를 제공합니다.",
@@ -342,9 +342,9 @@ export const farms = {
       },
       {
         id: 36,
-        name: "푸르른감자 농장",
+        name: "밀레니엄농원",
         location: "경기도 하남시",
-        image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=1000",
+        image: "https://plus.unsplash.com/premium_photo-1686529811856-c05734b82434?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjV8fCVFQSVCMCU5MCVFQyU5RSU5MHxlbnwwfHwwfHx8MA%3D%3D?q=80&w=1000",
         rating: 4.7,
         reviews: 98,
         description: "신선한 감자를 재배하는 농장입니다. 유기농 방식으로 재배하여 건강한 감자를 제공합니다.",
