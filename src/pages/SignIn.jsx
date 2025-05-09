@@ -16,11 +16,11 @@ function SignIn() {
 
         <section className="relative">
           <div className=" mx-auto px-4 sm:px-6">
-            <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+            <div className="pt-32 pb-12 md:pt-40 md:pb-10">
 
               {/* Page header */}
-              <div className="w-[38%] mx-auto text-left pb-12 md:pb-20">
-                <h1 className="h2">로그인 한 번으로 <br /> 이웃집 소작농의 서비스를 사용해보세요</h1>
+              <div className="w-[38%] mx-auto text-left px-16 pt-10 pb-4 md:pb-4">
+                <h1 className="h2">로그인 한 번으로 <br /> 서비스를 사용해보세요</h1>
               </div>
 
               {/* Form */}

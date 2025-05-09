@@ -16,11 +16,11 @@ function SignUp() {
 
         <section className="relative">
           <div className="mx-auto px-4 sm:px-6">
-            <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+            <div className="pt-32 pb-4 md:pt-40 md:pb-4">
 
               {/* Page header */}
-              <div className="w-[38%] mx-auto text-left pb-12 md:pb-20">
-                <h1 className="h2">이웃집 소작농과 함께 <br /> 내 농산물 판매를 시작하세요</h1>
+              <div className="w-[38%] mx-auto px-12 pt-12 text-left pb-4 md:pb-4">
+                <h1 className="h2">이웃집 소작농과 함께 <br />시작할까요?</h1>
               </div>
 
               {/* Form */}
