@@ -57,10 +57,10 @@ function HeroHome() {
           {/* Section header */}
           <div className="mt-10 max-w-4xl mx-auto text-center pb-0 md:pb-4">
             <h1 className="h1 text-black mb-4">
-              신선한 농산물 직거래 플랫폼
+            작은 농가를 위한 특별한 판매 공간
             </h1>
             <p className="mt-10 mb-20 text-xl text-black mb-8">
-              농부와 소비자를 직접 연결하는 신선한 농산물 직거래 플랫폼<br />
+              농부와 소비자를 직접 연결하는 작은 농가를 위한 특별한 판매 공간<br />
               당신의 식탁에 신선함을 전달합니다
             </p>
 

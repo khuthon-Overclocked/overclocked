@@ -25,13 +25,14 @@ const Detail = () => {
       content: `안녕하세요, 무엇을 도와드릴까요?`
     }
   ]);
+  const [showQrModal, setShowQrModal] = useState(false);
   const chatModalRef = useRef(null);
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
     const getFarmData = async () => {
       // 임시로 모든 농장 데이터를 가져와서 해당 ID의 농장을 찾습니다
-      const allFarms = Object.values(farms).flatMap(category => 
+      const allFarms = Object.values(farms).flatMap(category =>
         Object.values(category).flat()
       );
       const foundFarm = allFarms.find(f => f.id === parseInt(id));
@@ -85,6 +86,18 @@ const Detail = () => {
     }
   };
 
+  const handleShare = () => {
+    setShowQrModal(true);
+  };
+
+  const handleDownloadQr = () => {
+    const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://neighborhood-pied.vercel.app/farm/${id}`;
+    const link = document.createElement('a');
+    link.href = qrCodeUrl;
+    link.download = `farm_${id}_qr_code.png`;
+    link.click(); // 클릭 이벤트 트리거
+  };
+
   if (!farm) {
     return <div>Loading...</div>;
   }
@@ -105,7 +118,12 @@ const Detail = () => {
               <Button variant="outline" size="icon" className="w-10 h-10 border-[#688A08] hover:bg-[#688A08]/10">
                 <Heart className="w-5 h-5 text-[#688A08]" />
               </Button>
-              <Button variant="outline" size="icon" className="w-10 h-10 border-[#688A08] hover:bg-[#688A08]/10">
+              <Button
+                variant="outline"
+                size="icon"
+                className="w-10 h-10 border-[#688A08] hover:bg-[#688A08]/10"
+                onClick={handleShare}
+              >
                 <Share2 className="w-5 h-5 text-[#688A08]" />
               </Button>
             </div>
@@ -256,11 +274,11 @@ const Detail = () => {
                   <div className="space-y-4">
                     <div className="flex items-center gap-2">
                       <Phone className="w-5 h-5 text-[#688A08]" />
-                      <span className="text-black">010-1234-5678</span>
+                      <span className="text-black">010-1276-9834</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Mail className="w-5 h-5 text-[#688A08]" />
-                      <span className="text-black">farm@example.com</span>
+                      <span className="text-black">carrotroot4527@naver.com</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Clock className="w-5 h-5 text-[#688A08]" />
@@ -277,6 +295,16 @@ const Detail = () => {
                 <CardContent className="p-4">
                   <h3 className="font-semibold mb-4 text-black">농장 소개</h3>
                   <p className="text-black">{farm.description}</p>
+                </CardContent>
+              </Card>
+              <Card className="border border-[#688A08]">
+                <CardContent className="p-4">
+                  <h3 className="font-semibold mb-4 text-black">배송은 이렇게 진행돼요</h3>
+                  <p className="text-black mb-2">당일 수확/당일 발송</p>
+                  <p className="text-black mb-2">오후 1시이후 주문은 익일발송됩니다.</p>
+                  <p className="text-black mb-2">목요일 1시이후 주문은 월요일날 보내드립니다.</p>
+                  <p className="text-black mb-2">빠르고 안전한 우체국 택배 이용!(다음날 도착)</p>
+                  <p className="text-black mb-2">많은 관심 부탁드립니다</p>
                 </CardContent>
               </Card>
             </div>
@@ -317,11 +345,10 @@ const Detail = () => {
                         </div>
                       )}
                       <div
-                        className={`max-w-[80%] rounded-lg p-2 ${
-                          msg.sender === 'user'
-                            ? 'bg-[#688A08] text-white'
-                            : 'bg-gray-100 text-black'
-                        }`}
+                        className={`max-w-[80%] rounded-lg p-2 ${msg.sender === 'user'
+                          ? 'bg-[#688A08] text-white'
+                          : 'bg-gray-100 text-black'
+                          }`}
                       >
                         <p className="text-sm">{msg.content}</p>
                       </div>
@@ -354,10 +381,38 @@ const Detail = () => {
               </div>
             </div>
           )}
+
+          {/* QR 코드 모달 */}
+          {showQrModal && (
+            <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+              <div className="bg-white rounded-lg p-6 w-[300px] text-center">
+                <h3 className="text-lg font-semibold mb-4 text-black">QR 코드</h3>
+                <img
+                  src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://neighborhood-pied.vercel.app/farm/${id}`}
+                  alt="QR Code"
+                  className="mx-auto mb-4"
+                />
+                <div className="flex justify-center gap-4">
+                  <Button
+                    className="bg-[#688A08] text-white px-4 py-2 rounded-lg hover:bg-[#688A08]/90"
+                    onClick={handleDownloadQr}
+                  >
+                    저장
+                  </Button>
+                  <Button
+                    className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-gray-600"
+                    onClick={() => setShowQrModal(false)}
+                  >
+                    닫기
+                  </Button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
   )
 }
 
-export default Detail 
+export default Detail

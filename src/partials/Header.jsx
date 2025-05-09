@@ -84,7 +84,7 @@ function Header() {
           <div className="text-2xl font-bold px-1 text-black">이웃집 소작농</div>
 
           <div className="flex flex-col">
-            <div className="text-sm text-black px-3">신선한 농산물 직거래 플랫폼</div>
+            <div className="text-sm text-black px-3">작은 농가를 위한 특별한 판매 공간</div>
           </div>
 
           <nav className="hidden md:flex md:grow">
